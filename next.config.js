@@ -21,5 +21,5 @@ const config = withTM({
 });
 
 module.exports = withPlausibleProxy({
-  customDomain: 'https://plausible.paolotiu.com',
+  customDomain: 'https://portfolio-quandinh04.vercel.app/',
 })(withBundleAnalyzer(config));

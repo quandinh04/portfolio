@@ -21,7 +21,7 @@ const Projects = () => {
           title="Excellaca"
           description="An educational website made with group of friends"
           liveLink="https://excellaca.org/"
-          repoLink="#"
+          repoLink="https://github.com/therealozp/excel-academy"
         />
       </div>
     </section>

@@ -45,7 +45,15 @@ const Navbar = () => {
               Resume
             </LinkTo>
           </div>
-        </div>
+          <div>
+            <LinkTo
+              href="/album"
+              className="text-black no-underline hover:text-current dark:text-white"
+            >
+              Album
+            </LinkTo>
+          </div>
+          </div>
         <div>
           {isMounted &&
             (resolvedTheme === 'light' ? (

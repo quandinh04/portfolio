@@ -36,7 +36,7 @@ const Landing = () => {
           </h2>
 
           <p className="max-w-2xl pt-3 md:text-lg dark:text-white">
-            Currently a student at High School for the Gifted VNU-HCM, majoring in English.
+            Software Engineer wannabe. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
           </p>
           <div>
             <a href="mailto:thequan2004@gmail.com">

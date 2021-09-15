@@ -16,8 +16,8 @@ const AlbumPreviews = () => {
         <AlbumPreview
           publishedAt={new Date('2021-06-2')}
           slug="family"
-          summary="Snippets from my life in Saigon"
-          title="Family Album 👨‍👩‍👧‍👦 Snippets from my life"
+          summary="Looking back the years in my hometown"
+          title="Family Album 👨‍👩‍👧‍👦 Snippets from my life in Saigon"
         />
         <AlbumPreview
           publishedAt={new Date('2021-05-19')}
