@@ -1,9 +1,12 @@
 {
   "name": "web",
   "version": "0.1.0",
+  "homepage": "https://quandinh04.github.io/portfolio/",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "yarn gen:scripts & next build",
     "analyze": "ANALYZE=true yarn build",
     "start": "next start",
@@ -22,6 +25,7 @@
     "clsx": "^1.1.1",
     "dayjs": "^1.10.6",
     "eslint-config-tiu": "^1.0.2",
+    "gh-pages": "^3.2.3",
     "graphql": "^15.5.1",
     "graphql-tag": "^2.12.5",
     "gray-matter": "^4.0.3",
