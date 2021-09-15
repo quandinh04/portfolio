@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
+import Image from 'next/image'; 
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
                 <div className="rounded-md max-w-sm w-48 h-full mx-auto">
                   <div className="flex h-full">
                     <div className="flex">
-                      <img className="rounded-md object-cover object-center w-full h-full" src="/aboutMe.png" alt="profile-picture" />
+                      <Image className="rounded-md object-cover object-center w-full h-full" width='200' height='250' src="/aboutMe.png" alt="Picture of the author"/>
                     </div>
                   </div>
                 </div>
