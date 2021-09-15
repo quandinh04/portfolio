@@ -6,11 +6,11 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import Contact from '@/components/Contact';
 import MainLayout from 'layouts/MainLayout';
+import ReactDOM from 'react-dom';
 
 const Subscribe = dynamic(() => import('@/components/Subscribe'));
 
-export default function Home() {
-  return (
+ReactDOM.render(
     <MainLayout>
       <Landing />
       <Projects />
@@ -19,5 +19,4 @@ export default function Home() {
       <Subscribe />
       <SocialsLine />
     </MainLayout>
-  );
-}
+  , document.getElementById('root'));
