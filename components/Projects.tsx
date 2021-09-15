@@ -17,7 +17,7 @@ const Projects = () => {
           repoLink="https://github.com/quandinh04/portfolio-v.1"
         />
         <ProjectCard
-          imgSrc="/excellaca.png"
+          imgSrc="/smartmockups_ktm4x1kl.jpg"
           title="Excellaca"
           description="An educational website made with group of friends"
           liveLink="https://excellaca.org/"
