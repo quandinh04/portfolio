@@ -14,8 +14,6 @@ class MyDocument extends Document {
           {/* FAVICONS */}
           <link rel="icon" href="/catIcon.png" />
           <meta name="theme-color" content="#ffffff"></meta>
-          {/* GOOGLE SEO */}
-          <meta name="google-site-verification" content="cyKrx6Pn6xYH8mG2dqWRxWnO1DGvGr5uUWaImj0tJAU" />
         </Head>
         <body className="transition-colors duration-200 bg-white dark:bg-light-black">
           <Main />

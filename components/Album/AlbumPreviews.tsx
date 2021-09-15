@@ -7,6 +7,12 @@ const AlbumPreviews = () => {
     <section className="pt-20">
       <SectionTitle isSecondary>Life Album</SectionTitle>
       <div>
+      <AlbumPreview
+          publishedAt={new Date('2021-07-5')}
+          slug="schoolActivities"
+          summary="Ways to kill time outside of school"
+          title="Clubs & Others"
+        />
         <AlbumPreview
           publishedAt={new Date('2021-06-2')}
           slug="family"

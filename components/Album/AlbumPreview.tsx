@@ -17,7 +17,7 @@ const AlbumPreview = ({ slug, summary, title, publishedAt }: Props) => {
     <article
       className={`${styles.container} border-gray-200 dark:border-gray-700 first-of-type:border-t-0 border-t`}
     >
-      <Link href={`/blog/${slug}`} passHref>
+      <Link href={`/album/${slug}`} passHref>
         <a className="grid gap-4 pt-10 pb-8 group">
           <div className="grid justify-between gap-8 md:grid-flow-col lg:flex-row">
             <div className="grid gap-2">
