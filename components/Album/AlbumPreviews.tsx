@@ -1,11 +1,11 @@
 import React from 'react';
 import SectionTitle from '../SectionTitle';
-import BlogPreview from './BlogPreview';
+import BlogPreview from './AlbumPreview';
 
 const BlogPreviews = () => {
   return (
     <section className="pt-20">
-      <SectionTitle isSecondary>Recent Posts</SectionTitle>
+      <SectionTitle isSecondary>Life Album</SectionTitle>
       <div>
         <BlogPreview
           publishedAt={new Date('2021-08-2')}

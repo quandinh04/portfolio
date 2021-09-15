@@ -14,11 +14,11 @@ const Landing = () => {
     setColors(shuffleArray(HIGHLIGHT_COLORS));
   }, []);
   return (
-    <section className="flex items-center justify-center min-h-screen">
+    <section className="flex items-center min-h-screen">
       <RoughNotationGroup show={isFontReady}>
         <div className="mb-48 space-y-3">
           <h1 className="heading dark:text-white">
-            Hey, I&apos;m{' '}
+            Hi, I&apos;m{' '}
             <span className="whitespace-nowrap">
               <RoughNotation
                 type="underline"
@@ -27,22 +27,19 @@ const Landing = () => {
                 color={colors[0]}
                 animationDuration={800}
               >
-                Paolo Tiu
+                Quan Dinh
               </RoughNotation>
             </span>
           </h1>
           <h2 className="heading main text-subtext">
-            I like making cool stuff
+            Just another cat lover.
           </h2>
 
           <p className="max-w-2xl pt-3 md:text-lg dark:text-white">
-            I’m a developer specializing in building products with amazing
-            performance, experiences, and usability.
-            {/*  I would love if you could{' '}
-            <LinkTo href="/gruset-book">sign my guestbook!</LinkTo> */}
+            Currently a student at High School for the Gifted VNU-HCM, majoring in English.
           </p>
           <div>
-            <a href="mailto:me@paolotiu.com">
+            <a href="mailto:thequan2004@gmail.com">
               <Button className="mt-5"> Contact Me</Button>
             </a>
           </div>

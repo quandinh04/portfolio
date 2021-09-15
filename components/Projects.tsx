@@ -5,23 +5,23 @@ import SectionTitle from './SectionTitle';
 const Projects = () => {
   return (
     <section>
-      <SectionTitle subtitle="I like keeping myself busy and having projects to work on. Here are some of the applications I built.">
+      <SectionTitle subtitle="Here are some of the applications I built / collaborated on.">
         Projects
       </SectionTitle>
       <div className="grid grid-cols-1 gap-x-[140px] gap-y-20 pt-10 lg:grid-cols-2 ">
         <ProjectCard
-          imgSrc="/TheCanvasJewelryMockup.png"
-          title="The Canvas Jewelry"
-          description="An e-commerce website built with Next.JS & Sanity for a jewelry company."
-          liveLink="https://thecanvasjewelry.com"
-          repoLink="https://github.com/paolotiu/canvas-jewelry"
+          imgSrc="/portfolio-v1.png"
+          title="Portfolio v.1"
+          description="My first personal website :0 (Not mobile responsive, unfortunately)"
+          liveLink="https://portfolio-v-1.vercel.app/"
+          repoLink="https://github.com/quandinh04/portfolio-v.1"
         />
         <ProjectCard
-          imgSrc="/DumprMockup.png"
-          title="DumpR"
-          description="A bookmarking web app with draggable folders and subfolders."
-          liveLink="https://dumpr.vercel.app"
-          repoLink="https://github.com/paolotiu/bookmark-manager"
+          imgSrc="/excellaca.png"
+          title="Excellaca"
+          description="An educational website made with group of friends"
+          liveLink="https://excellaca.org/"
+          repoLink="#"
         />
       </div>
     </section>

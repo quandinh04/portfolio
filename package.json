@@ -1,7 +1,7 @@
 {
   "name": "web",
   "version": "0.1.0",
-  "homepage": "https://quandinh04.github.io/portfolio/",
+  "homepage": "https://portfolio-quandinh04.vercel.app/",
   "private": true,
   "scripts": {
     "dev": "next dev",

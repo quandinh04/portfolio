@@ -13,9 +13,7 @@ class MyDocument extends Document {
           />
 
           {/* FAVICONS */}
-
-          <link rel="icon" type="image/svg+xml" href="/logo.svg"></link>
-          <link rel="alternate icon" href="/favicon-16x-16.png" />
+          <link rel="icon" href="/catIcon.png" />
           <meta name="theme-color" content="#ffffff"></meta>
         </Head>
         <body className="transition-colors duration-200 bg-white dark:bg-light-black">

@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import Link from 'next/link';
 import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
-import styles from './BlogPreviews.module.css';
+import styles from './AlbumPreviews.module.css';
 
 interface Props {
   slug: string;
@@ -12,7 +12,7 @@ interface Props {
   publishedAt: string | number | Date | dayjs.Dayjs;
 }
 
-const BlogPreview = ({ slug, summary, title, publishedAt }: Props) => {
+const AlbumPreview = ({ slug, summary, title, publishedAt }: Props) => {
   return (
     <article
       className={`${styles.container} border-gray-200 dark:border-gray-700 first-of-type:border-t-0 border-t`}
@@ -53,4 +53,4 @@ const BlogPreview = ({ slug, summary, title, publishedAt }: Props) => {
   );
 };
 
-export default BlogPreview;
+export default AlbumPreview;

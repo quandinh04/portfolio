@@ -6,38 +6,6 @@ import { useInView } from 'react-intersection-observer';
 import LinkTo from '../LinkTo';
 import styles from './Footer.module.css';
 
-const FooterLink = ({
-  children,
-  isExternal,
-  href,
-}: {
-  children: React.ReactNode;
-  isExternal?: boolean;
-  href: string;
-}) => {
-  const className = clsx(
-    ' hover:text-gray-800 dark:hover:text-gray-200 no-underline text-current'
-  );
-
-  if (isExternal) {
-    return (
-      <a
-        href={href}
-        className={className}
-        target="_blank"
-        rel="noreferrer noopener"
-      >
-        {children}
-      </a>
-    );
-  }
-
-  return (
-    <LinkTo href={href} className={className}>
-      {children}
-    </LinkTo>
-  );
-};
 interface Props {
   className?: string;
 }
@@ -54,11 +22,6 @@ const Footer = ({ className }: Props) => {
             <LinkTo href="/" aria-label="Signature">
               <Signature />
             </LinkTo>
-          </div>
-          <div className="grid grid-flow-col gap-3 text-gray-600">
-            <FooterLink href="https://github.com/paolotiu" isExternal>
-              Github
-            </FooterLink>
           </div>
         </div>
       </footer>

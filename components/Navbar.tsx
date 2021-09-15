@@ -34,15 +34,15 @@ const Navbar = () => {
               href="/"
               className="text-current text-black no-underline dark:text-white hover:text-current"
             >
-              <span className="font-bold ">PAOLO TIU</span>
+              <span className="font-bold ">QUAN DINH</span>
             </LinkTo>
           </div>
           <div>
             <LinkTo
-              href="/blog"
+              href="#"
               className="text-black no-underline hover:text-current dark:text-white"
             >
-              Blog
+              Resume
             </LinkTo>
           </div>
         </div>

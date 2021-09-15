@@ -10,9 +10,9 @@ import { ReactQueryDevtools } from 'react-query/devtools';
 import { Hydrate } from 'react-query/hydration';
 
 const meta = {
-  description: 'Fullstack Developer creating beautiful experiences.',
-  title: 'Paolo Tiu | Developer & Creator',
-  image: '/banner.png',
+  description: 'A student aiming to do great things',
+  title: 'Quan Dinh',
+  image: '/Logo.PNG',
 };
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -30,19 +30,18 @@ function MyApp({ Component, pageProps }: AppProps) {
               type: 'website',
               description: meta.description,
               title: meta.title,
-              site_name: 'Paolo Tiu',
-              images: [{ url: `https://paolotiu.com${meta.image}` }],
+              site_name: 'Quan Dinh',
+              images: [{ url: `https://portfolio-quandinh04.vercel.app/${meta.image}` }],
             }}
-            canonical={`https://paolotiu.com${router.asPath}`}
+            canonical={`https://portfolio-quandinh04.vercel.app/${router.asPath}`}
             twitter={{
-              handle: '@PaoloTiu_',
-              site: '@PaoloTiu_',
+              handle: '@thequan2004',
+              site: '@thequan2004',
               cardType: 'summary_large_image',
             }}
           />
           <PlausibleProvider
-            domain="paolotiu.com"
-            customDomain="https://plausible.paolotiu.com"
+            domain="https://portfolio-quandinh04.vercel.app/"
             selfHosted
           >
             <Component {...pageProps} />
