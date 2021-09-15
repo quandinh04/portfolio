@@ -1,13 +1,8 @@
 import AlbumPreview from '@/components/Album/AlbumPreview';
-import { FrontMatter } from '@/types/interfaces';
 import MainLayout from 'layouts/MainLayout';
 import React from 'react';
 
-interface Props {
-  posts: FrontMatter[];
-}
-
-const AlbumPage = ({ posts }: Props) => {
+const AlbumPage = () => {
   return (
     <MainLayout footerClassName="max-w-4xl">
       <div className="w-full max-w-4xl m-auto">
