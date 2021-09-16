@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://portfolio-quandinh04.vercel.app/</loc>
-  </url>
-  <url>
-    <loc>https://portfolio-quandinh04.vercel.app/album</loc>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+  <loc>https://portfolio-quandinh04.vercel.app/</loc>
+  <lastmod>2021-09-16T11:36:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://portfolio-quandinh04.vercel.app/album</loc>
+  <lastmod>2021-09-16T11:36:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-quandinh04.vercel.app/album/schoolActivities</loc>
+  <lastmod>2021-09-16T11:36:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-quandinh04.vercel.app/album/family</loc>
+  <lastmod>2021-09-16T11:36:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://portfolio-quandinh04.vercel.app/album/travel</loc>
+  <lastmod>2021-09-16T11:36:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 </urlset>
