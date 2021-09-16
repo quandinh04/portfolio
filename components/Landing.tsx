@@ -39,8 +39,8 @@ const Landing = () => {
             Software Engineer wannabe. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
           </p>
           <div>
-            <a href="mailto:thequan2004@gmail.com">
-              <Button className="mt-5"> Contact Me</Button>
+            <a href="#">
+              <Button className="mt-5">Resume</Button>
             </a>
           </div>
         </div>

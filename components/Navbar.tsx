@@ -39,14 +39,6 @@ const Navbar = () => {
           </div>
           <div>
             <LinkTo
-              href="#"
-              className="text-black no-underline hover:text-current dark:text-white"
-            >
-              Resume
-            </LinkTo>
-          </div>
-          <div>
-            <LinkTo
               href="/album"
               className="text-black no-underline hover:text-current dark:text-white"
             >
