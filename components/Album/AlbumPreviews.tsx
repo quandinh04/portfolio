@@ -8,13 +8,13 @@ const AlbumPreviews = () => {
       <SectionTitle isSecondary>Life Album</SectionTitle>
       <div>
       <AlbumPreview
-          publishedAt={new Date('2021-07-5')}
+          publishedAt={new Date('2021-07-05')}
           slug="schoolActivities"
           summary="Ways to kill time outside of school"
           title="Clubs & Others"
         />
         <AlbumPreview
-          publishedAt={new Date('2021-06-2')}
+          publishedAt={new Date('2021-06-02')}
           slug="family"
           summary="Looking back the years in my hometown"
           title="Family Album 👨‍👩‍👧‍👦 Snippets from my life in Saigon"

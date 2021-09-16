@@ -8,7 +8,7 @@ import MainLayout from 'layouts/MainLayout';
 const AlbumLayout= () => {
   
   const title= 'Clubs & Others';
-  const publishedAt= '2021-07-5';
+  const publishedAt= '2021-07-05';
   const summary= "Ways to kill time outside of school";
   const readingTime= '3 min read';
  
