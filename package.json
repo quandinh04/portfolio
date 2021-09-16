@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://portfolio-quandinh04.vercel.app/",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "predeploy": "npm run build",
