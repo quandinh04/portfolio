@@ -13,7 +13,7 @@ const AlbumPage = () => {
           <AlbumPreview
             publishedAt={new Date('2021-07-5')}
             slug="schoolActivities"
-            summary="Ways to kill time outside of school"
+            summary="Life outside of classroom"
             title="Clubs & Others"
           />
           <AlbumPreview

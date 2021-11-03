@@ -2,15 +2,15 @@ import React from 'react';
 import dayjs from 'dayjs';
 import { NextSeo } from 'next-seo';
 import MainLayout from 'layouts/MainLayout';
-
-
+import AlbumGrid from 'components/Album/album-photos/AlbumGrid'
+import {stella, english, ozam, steam, excellaca} from './photos'
 
 const AlbumLayout= () => {
   
   const title= 'Clubs & Others';
   const publishedAt= '2021-07-05';
-  const summary= "Ways to kill time outside of school";
-  const readingTime= '3 min read';
+  const summary= "Life outside the classroom";
+  const readingTime= '2 min read';
  
   return (
     <MainLayout footerClassName="max-w-2xl">
@@ -40,7 +40,16 @@ const AlbumLayout= () => {
             </div>
             <hr className="pb-8 " />
             <div className="w-full prose dark:prose-dark max-w-none">
-              {summary}
+              <h3>Excellaca</h3>
+              <AlbumGrid photoSource={excellaca}/>
+              <h3>STEAM PTNK: Science Club</h3>
+              <AlbumGrid photoSource={steam}/>
+              <h3>Creaiv: OZAM!</h3>
+              <AlbumGrid photoSource={ozam}/>
+              <h3>Núi Tượng Trip / KID VN Thrift Store</h3>
+              <AlbumGrid photoSource={stella}/>
+              <h3>English National Contest Team</h3>
+              <AlbumGrid photoSource={english}/>  
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@ const AlbumLayout= () => {
             </div>
             <hr className="pb-8 " />
             <div className="w-full prose dark:prose-dark max-w-none">
-              {summary}
+              {''}
             </div>
           </div>
         </div>
