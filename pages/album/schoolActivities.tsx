@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import { NextSeo } from 'next-seo';
 import MainLayout from 'layouts/MainLayout';
 import AlbumGrid from 'components/Album/album-photos/AlbumGrid'
-import {stella, english, ozam, steam, excellaca} from './photos'
+import {stella, english, ozam, steam, excellaca} from '../../components/Album/album-photos/photos'
 
 const AlbumLayout= () => {
   
