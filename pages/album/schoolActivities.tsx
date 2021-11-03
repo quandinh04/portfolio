@@ -58,5 +58,4 @@ const AlbumLayout= () => {
   );
 };
 
-export default AlbumLayout
-;
+export default AlbumLayout;
