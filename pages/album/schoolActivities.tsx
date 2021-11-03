@@ -3,7 +3,7 @@ import dayjs from 'dayjs';
 import { NextSeo } from 'next-seo';
 import MainLayout from 'layouts/MainLayout';
 import AlbumGrid from 'components/Album/album-photos/AlbumGrid'
-import {stella, english, ozam, steam, excellaca} from '../../components/Album/album-photos/photos'
+import {stella, english, ozam, steam, excellaca} from '../../components/Album/album-photos/activitiesPhotos'
 
 const AlbumLayout= () => {
   
@@ -45,6 +45,7 @@ const AlbumLayout= () => {
               <h3>STEAM PTNK: Science Club</h3>
               <AlbumGrid photoSource={steam}/>
               <h3>Creaiv: OZAM!</h3>
+              {'https://www.kickstarter.com/projects/creativco/ozam'}
               <AlbumGrid photoSource={ozam}/>
               <h3>Núi Tượng Trip / KID VN Thrift Store</h3>
               <AlbumGrid photoSource={stella}/>
