@@ -5,7 +5,7 @@ import MainLayout from 'layouts/MainLayout';
 
 const AlbumLayout= () => {
   
-  const title= 'Family Album 👨‍👩‍👧‍👦 Snippets from my life in Saigon';
+  const title= 'Life in Saigon 🛵☕👨‍👩‍👧‍👦';
   const publishedAt= '2021-06-02';
   const summary= "Looking back the years in my hometown";
   const readingTime= '3 min read';

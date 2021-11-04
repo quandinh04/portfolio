@@ -8,7 +8,7 @@ import {stella, english, ozam, steam, excellaca} from '../../components/Album/al
 const AlbumLayout= () => {
   
   const title= 'Clubs & Others';
-  const publishedAt= '2021-07-05';
+  const publishedAt= '2021-09-05';
   const summary= "Life outside the classroom";
   const readingTime= '2 min read';
  
@@ -40,11 +40,12 @@ const AlbumLayout= () => {
             </div>
             <hr className="pb-8 " />
             <div className="w-full prose dark:prose-dark max-w-none">
+              {''}
               <h3>Excellaca</h3>
               <AlbumGrid photoSource={excellaca}/>
               <h3>STEAM PTNK: Science Club</h3>
               <AlbumGrid photoSource={steam}/>
-              <h3>Creaiv: OZAM!</h3>
+              <h3>Creativ: OZAM!</h3>
               {'https://www.kickstarter.com/projects/creativco/ozam'}
               <AlbumGrid photoSource={ozam}/>
               <h3>Núi Tượng Trip / KID VN Thrift Store</h3>
