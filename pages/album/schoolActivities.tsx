@@ -46,7 +46,6 @@ const AlbumLayout= () => {
               <h3>STEAM PTNK: Science Club</h3>
               <AlbumGrid photoSource={steam}/>
               <h3>Creativ: OZAM!</h3>
-              {'https://www.kickstarter.com/projects/creativco/ozam'}
               <AlbumGrid photoSource={ozam}/>
               <h3>Núi Tượng Trip / KID VN Thrift Store</h3>
               <AlbumGrid photoSource={stella}/>
