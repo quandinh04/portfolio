@@ -36,10 +36,10 @@ const Landing = () => {
           </h2>
 
           <p className="max-w-2xl pt-3 md:text-lg dark:text-white">
-            Software Engineer wannabe. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
+            CS researcher wannabe. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
           </p>
           <div>
-            <a href="#">
+            <a href="https://bit.ly/dinh_the_quan">
               <Button className="mt-5">Resume</Button>
             </a>
           </div>
