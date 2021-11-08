@@ -19,12 +19,14 @@ export const ozam = [
         width: 2,
         height: 4,
         title:'Featured on the OZAM! website',
+        loading: 'lazy'
     },
     {
         src: "/activities/ozam-site.png",
         width: 1,
         height: 1,
         title:'The main website for OZAM!, a new interactive AR boardgame',
+        loading: 'lazy'
     }
 ];
 
@@ -34,6 +36,7 @@ export const english = [
         width: 4,
         height: 3,
         title:"HCMC National English team",
+        loading: 'lazy'
     },
 ];
 
@@ -42,7 +45,7 @@ export const steam = [
         src: "/activities/steam-group-12.JPG",
         width: 4,
         height: 3,
-        title:'',
+        title:'My first hackathons mates!',
     },
     {
         src: "/activities/steam-makathon.JPG",
@@ -76,53 +79,62 @@ export const stella = [
         width: 4,
         height: 3,
         title:'',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-191.jpg",
         width: 4,
         height: 3,
         title:'',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-241.jpg",
         width: 3,
         height: 2,
-        title:'Me with my mate, Dat',
+        title:'Me with my mate, Đạt',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-253.jpg",
         width: 4,
         height: 3,
         title:"Kids' DIY plant pot. Ours the Pikachu one!",
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-260.jpg",
         width: 4,
         height: 3,
         title:'Núi tượng mural',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-300.jpg",
         width: 4,
         height: 3,
-        title:'Me desperatly trying to market our product lol #1',
+        title:'Me desperatly trying to present our product lol #1',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-303.jpg",
         width: 4,
         height: 3,
         title:'Me desperatly trying to market our product lol #2',
+        loading: 'lazy'
     },
     {
         src: "/activities/stella-cert.PNG",
         width: 8,
         height: 3,
         title:'',
+        loading: 'lazy'
     },
     {
         src: "/activities/Stella-353.jpg",
         width: 10,
         height: 4,
         title:'Núi Tượng group photo',
+        loading: 'lazy'
     },
 ];
