@@ -9,7 +9,7 @@ const AlbumPreviews = () => {
       <div>
       <AlbumPreview
           publishedAt={new Date('2021-09-05')}
-          slug="schoolActivities"
+          slug="activities"
           summary="Life outside the classroom"
           title="Clubs & Others"
         />

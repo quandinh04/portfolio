@@ -12,13 +12,13 @@ const AlbumPage = () => {
         <section>
           <AlbumPreview
             publishedAt={new Date('2021-07-5')}
-            slug="schoolActivities"
+            slug="activities"
             summary="Life outside of classroom"
             title="Clubs & Others"
           />
           <AlbumPreview
             publishedAt={new Date('2021-06-2')}
-            slug="family"
+            slug="saigon"
             summary="Snippets from my life in Saigon"
             title="Family Album 👨‍👩‍👧‍👦 Snippets from my life"
           />
