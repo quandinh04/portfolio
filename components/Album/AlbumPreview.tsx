@@ -30,7 +30,7 @@ const AlbumPreview = ({ slug, summary, title, publishedAt }: Props) => {
             </div>
 
             <div className="text-sm text-gray-500 dark:text-gray-300">
-              <p>{dayjs(publishedAt).format('ddd, dd MMM yyyy')}</p>
+              <p>{dayjs(publishedAt).format('ddd, DD MMM YYYY')}</p>
             </div>
           </div>
           <div
