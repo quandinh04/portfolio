@@ -8,7 +8,7 @@ import {stella, english, ozam, steam, excellaca} from '../../components/Album/al
 const AlbumLayout= () => {
   
   const title= 'Clubs & Others';
-  const publishedAt= '09-10-2021';
+  const publishedAt= '09/10/2021';
   const summary= "Life outside the classroom";
   const readingTime= '2 min read';
  

@@ -8,7 +8,7 @@ import MainLayout from 'layouts/MainLayout';
 const AlbumLayout= () => {
   
   const title= 'Travel Album 🏍️✈️🚗';
-  const publishedAt= '05-19-2021';
+  const publishedAt= '05/19/2021';
   const summary= "Eye-opening experiences (before Covid of course :>)";
   const readingTime= '3 min read';
 

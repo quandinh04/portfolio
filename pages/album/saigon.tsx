@@ -6,7 +6,7 @@ import MainLayout from 'layouts/MainLayout';
 const AlbumLayout= () => {
   
   const title= 'Life in Saigon 🛵☕👨‍👩‍👧‍👦';
-  const publishedAt= '06-22-2021';
+  const publishedAt= '06/22/2021';
   const summary= "Looking back the years in my hometown";
   const readingTime= '3 min read';
 
