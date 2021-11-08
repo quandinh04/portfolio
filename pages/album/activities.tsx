@@ -8,7 +8,7 @@ import {stella, english, ozam, steam, excellaca} from '../../components/Album/al
 const AlbumLayout= () => {
   
   const title= 'Clubs & Others';
-  const publishedAt= '2021-09-05';
+  const publishedAt= '2021-09-10';
   const summary= "Life outside the classroom";
   const readingTime= '2 min read';
  
@@ -35,7 +35,7 @@ const AlbumLayout= () => {
               {title}
             </h1>
             <div className="flex justify-between pt-4 pb-2 text-sm text-gray-500 dark:text-gray-400">
-              <span>{dayjs(new Date(publishedAt)).format('MMMM D, YYYY')}</span>
+              <span>{dayjs(new Date(publishedAt)).format('MMMM DD, YYYY')}</span>
               <span>{readingTime}</span>
             </div>
             <hr className="pb-8 " />
