@@ -8,7 +8,7 @@ import MainLayout from 'layouts/MainLayout';
 const AlbumLayout= () => {
   
   const title= 'Travel Album 🏍️✈️🚗';
-  const publishedAt= '2021-05-19';
+  const publishedAt= '05-19-2021';
   const summary= "Eye-opening experiences (before Covid of course :>)";
   const readingTime= '3 min read';
 
@@ -35,7 +35,7 @@ const AlbumLayout= () => {
               {title}
             </h1>
             <div className="flex justify-between pt-4 pb-2 text-sm text-gray-500 dark:text-gray-400">
-              <span>{dayjs(new Date(publishedAt)).format('MMMM D, YYYY')}</span>
+              <span>{dayjs(new Date(publishedAt)).format('ddd, DD MMM YYYY')}</span>
               <span>{readingTime}</span>
             </div>
             <hr className="pb-8 " />

@@ -11,19 +11,19 @@ const AlbumPage = () => {
         </h1>
         <section>
           <AlbumPreview
-            publishedAt={new Date('2021-07-5')}
+            publishedAt={new Date('10-09-2021')}
             slug="activities"
             summary="Life outside of classroom"
             title="Clubs & Others"
           />
           <AlbumPreview
-            publishedAt={new Date('2021-06-2')}
+            publishedAt={new Date('06-22-2021')}
             slug="saigon"
             summary="Snippets from my life in Saigon"
             title="Family Album 👨‍👩‍👧‍👦 Snippets from my life"
           />
           <AlbumPreview
-            publishedAt={new Date('2021-05-19')}
+            publishedAt={new Date('05-19-2021')}
             slug="travel"
             summary="Eye-opening experiences (before Covid of course :>)"
             title="Travel Album 🏍️✈️🚗"
