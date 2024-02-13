@@ -22,12 +22,12 @@ const About = () => {
                 </div>
               </div>
               <div className="flex flex-col mt-10 md:mt-0">
-                <p>I'm The Quan, a current sophomore at Purdue University, majoring in Computer Science. As of right
-                now, I'm still exploring my future career through coding projects and MOOCs, trying to find my life's calling. Does it exist? Who knows.</p>
+                <p>My name is Quan, a current sophomore at Purdue University, majoring in Computer Science. As of right
+                now, I am still on the journey to various fields in Computer Science through research and coding projects, trying to find my life&aposs calling. Does it exist? Who knows.</p>
                 <br />
                 <p>My decision to gear toward CS, in hindsight, was instrumental to the connections and friendships I made during three years of high school. Even though CS might not be my final career, the knowledge I gained will serve me well in the years to come.</p>
                 <br/>
-                <p>Fun fact: I'm a hardcore memer and cat lover! Just text me and your chat will be flooded with cat memes :)))</p>
+                <p>Fun fact: I am a hardcore memer and cat lover! Just text me and your chat will be flooded with cat memes!</p>
               </div>
             </div>
           </div>

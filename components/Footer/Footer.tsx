@@ -1,7 +1,7 @@
 // import { animateSignatureAtom } from '@/lib/jotai';
 import clsx from 'clsx';
 // import { useAtom } from 'jotai';
-import React, { useEffect } from 'react';
+// import React, { useEffect } from 'react';
 // import { useInView } from 'react-intersection-observer';
 import LinkTo from '../LinkTo';
 // import styles from './Footer.module.css';
