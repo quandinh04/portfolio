@@ -36,7 +36,7 @@ const Landing = () => {
           </h2>
 
           <p className="max-w-2xl pt-3 md:text-lg dark:text-white">
-            CS researcher wannabe. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
+            CS @ Purdue. <s>Couch potato.</s> Memer for life. (* ≧ ω ≦ *)
           </p>
           <div>
             <a href="https://bit.ly/dinh_the_quan">
