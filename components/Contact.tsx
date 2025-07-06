@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="pt-4">
         <p>Email:{' '}  
           <a
-            href="mailto: me@paolotiu.com"
+            href="mailto: thequan2004@gmail.com"
             className="pb-[2px] text-lg font-bold border-b-2 border-black dark:border-white dark:border-opacity-0  border-opacity-0 hover:border-opacity-100 dark:hover:border-opacity-100 hover:transition dark:text-white"
           >
             thequan2004@gmail.com
